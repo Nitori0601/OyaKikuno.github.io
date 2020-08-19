@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- 文字コード設定 -->
+    <meta charset="UTF-8" />
+    <!-- いろんなデバイス幅で表示崩れが起きないようにするやつ -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- ページタイトル -->
+    <title>Poppin' color</title>
+    <!-- ページ情報 -->
+    <meta name="description" content="ここにページの説明を書く" />
+    <!-- 検索で引っかかるようにする -->
+    <meta name="keywords" content=",で区切ってキーワード" />
+    <!-- css読み込み -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- jquery読み込み(必要な人のみ) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://codepen.io/darrylhuffman/pen/zogYQW.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="header-logo">
+        <a class="header-logo-wrap" href="#top">
+          <img src="images/logo.png" alt="ロゴイメージ" />
+        </a>
+        <a class="header-logo-text-wrap" href="#top">
+          <img src="images/logo-text.png" alt="ロゴテキスト" />
+        </a>
+      </div>
+      
+      <div class="header-sp-icon-wrap">
+        <div class="header-sp-icon-bar1"></div>
+        <div class="header-sp-icon-bar2"></div>
+        <div class="header-sp-icon-bar3"></div>
+      </div>
+      
+
+      <div class="header-sp-nav">
+        <ul class="header-sp-nav-list">
+          <li class="header-sp-nav-item">
+            <a href="index.html#top">Home</a>
+          </li>
+          <li class="header-sp-nav-item">
+            <a href="index.html#NEWS">NEWS</a>
+          </li>
+          <li class="header-sp-nav-item">
+            <a href="index.html#MENU">MENU</a>
+          </li>
+          <li class="header-sp-nav-item">
+            <a href="index.html#CONCEPT">CONCEPT</a>
+          </li>
+          <li class="header-sp-nav-item">
+            <a href="index.html#Q&A">Q&A</a>
+          </li>
+          <li class="header-sp-nav-item">
+            <a href="index.html#CONTACT">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <section class="top" id="top">
+      <div class="main-visual">
+        <div class="main-visual-text-img-wrap">
+          <img src="images/main-text.png" alt="メインビジュアルテキスト" />
+        </div>
+        <div class="main-visual-img-wrap">
+          <img src="images/top.png" alt="メインビジュアル画像" />
+        </div>
+      </div>
+    </section>
+    <div id="wave"></div>
+
+    <section class="NEWS" id="NEWS">
+      <div class="news" id="news">
+        <h1 class="news-title">NEWS</h1>
+        <div class="news-detail">
+          <div class="news-detail-inner">
+            <ul class="news-detail-1">
+              <li>2020.9.1</li>
+              <li>web公開！</li>
+            </ul>
+            <ul class="news-detail-2">
+              <li>2020.8.21</li>
+              <li>Poppin' colorオープン！</li>
+            </ul>
+            <a class="news-readmore-img-wrap" href="news.html">
+              <img src="images/READ MORE.png" alt="READ MORE" />
+            </a>
+          </div>
+        </div>
+        <!-- <div class="news-detail-img-wrap">
+          <img src="images/NEWS-frame.png" alt="NEWSフレーム" />
+        </div> -->
+      </div>
+      <div class="NEWS-wave-img-wrap">
+        <img src="images/NEWS.png" alt="ニュースウェーブ">
+      </div>
+    </section>
+
+    <section class="MENU" id="MENU">
+      <div class="menu">
+        <h1>MENU</h1>
+        <div class="menu-new" id="menu-new">
+          <p>NEW</p>
+          <!-- <ul class="menu-list">
+            <li> -->
+          <div class="menu-new1">
+            <div class="menu-new1-illust">
+              <div class="menu-new1-img-wrap">
+                <img src="images/kiwi.png" alt="キウイ" />
+              </div>
+              <h2 class="menu-new1-fruit">kiwi</h2>
+              <div class="menu-new1-img-d-wrap">
+                <img src="images/kiwi-d.png" alt="キウイドリンク" />
+              </div>
+            </div>
+
+            <div class="menu-new1-caption">
+              <h3>summer festival</h3>
+              <p>
+                カラフルな色が特徴♡ <br />
+                綺麗な青空と広大な自然をモチーフにしたsummer festivalはさっぱりとした味わいに！
+              </p>
+            </div>
+          </div>
+          <!-- </li> -->
+          <!-- <li> -->
+          <div class="menu-new2">
+            <div class="menu-new2-illust">
+              <h2 class="menu-new2-fruit">peach</h2>
+              <div class="menu-new2-img-d-wrap">
+                <img src="images/peach-d.png" alt="ピーチドリンク" />
+              </div>
+              <div class="menu-new2-img-wrap">
+                <img src="images/peach.png" alt="ピーチ" />
+              </div>
+            </div>
+            <div class="menu-new2-caption">
+              <h3>white night</h3>
+              <p>
+                まるで白夜の空を眺めているような気分。 <br />
+                素直になりたい時ってない？そんな時に飲んでみて欲しいです♡
+              </p>
+            </div>
+          </div>
+          <!-- </li> -->
+          <!-- </ul> -->
+        </div>
+        <a class="menu-viewmore" href="menu.html">
+          VIEW MORE
+          <img src="images/right-pink.png" alt="ピンク矢印" />
+        </a>
+      </div>
+    </section>
+
+    <section class="CONCEPT" id="CONCEPT">
+      <div class="concept">
+        <div class="concept-frame-inner">
+          <h1 class="concept-title">CONCEPT</h1>
+          <div class="concept-contents">
+            <h5>かわいいを＋する</h5>
+            <div class="concept-contents-img-wrap">
+              <img src="images/logo.png" alt="ロゴ" />
+            </div>
+            <div class="concept-contents-detail">
+              <span>私たちPoppin' colorのコンセプト</span><br />
+              <span
+                >日常生活にちょっとした可愛さを＋したらもっと人生楽しくなると思いませんか？
+                男の子も女の子もPoppin'片手にカワイくなっちゃお！</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="Q&A" id="Q&A">
+      <div class="qa">
+        <h1 class="qa-title">Q&A</h1>
+        <ul class="qa-contents">
+          <li>
+            <h6 class="qa-contens-q">お店は1店舗しかないんですか？</h6>
+            <p>申し訳ございません。現在は北千種店の1店舗のみとなっております。<br>
+              これからも店舗を増やしていく予定なので待っていてください！
+            </p>
+          </li>
+          <li>
+            <h6 class="qa-contens-q">すごい色のものがありますけど変なものは使ってないですよね？</h6>
+            <p>もちろんです!!!着色料は使用しておりますが、有害なものではないので安心してください。
+            </p>
+          </li>
+          <li>
+            <h6 class="qa-contens-q">投稿したらインスタのフォロワー増えると思いますか？</h6>
+            <p>もちろん増えるのでどんどん投稿してみてください！（責任は負いません）
+            </p>
+          </li>
+        </ul>
+        </div>
+        <div class="contact-wave">
+          <img src="images/wave-green.png" alt="コンタクトウェーブ">
+        </div>
+      </div>
+    </section>
+
+    <section class="CONTACT" id="CONTACT">
+      <div class="contact">
+        <h1 class="contact-title">CONTACT</h1>
+        <div class="contact-contents">
+          <div class="contact-contents-notmap">
+            <div class="contact-contents-name-wrap">
+              <img src="images/logo-text.png" alt="ロゴテキスト">
+            </div>
+            <div class="contact-contents-sns">
+              <a class="contact-contents-twitter-wrap" href="https://www.twitter.com/pop_ingcolor">
+                <img src="images/twitter.png" alt="ツイッター">
+              </a>
+              <a class="contact-contents-instagram-wrap" href="https://www.instagram.com/popp.ingcolor">
+                <img src="images/instagram.png" alt="インスタ">
+              </a>
+            </div>
+            <div class="contact-contents-sikiri-wrap">
+              <img src="images/sikiri.png" alt="しきり">
+            </div>
+            <div class="contact-contents-detail">
+              <p>〒464-0083 <br>
+                名古屋市千種区北千種2-1-10</p>
+              <p>TEL 052-721-1225</p>
+            </div>
+          </div>
+          <div class="contact-contents-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3261.0074291822107!2d136.94554095094261!3d35.18136738021738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6003705a45b7e0cd%3A0xcea9a0e7712b9848!2z5ZCN5Y-k5bGL5biC56uL5aSn5a2mIOWMl-WNg-eoruOCreODo-ODs-ODkeOCuQ!5e0!3m2!1sja!2sjp!4v1597743582084!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <a class="footer-logo-wrap" href="#top">
+        <img src="images/logo-text.png" alt="ロゴテキスト">
+      </a>
+      <div>
+          <ul class="footer-text">
+            <li>
+              <a href="#top">HOME</a>
+            </li>
+            <li>
+              <a href="#NEWS">NEWS</a>
+            </li>
+            <li>
+              <a href="#MENU">MENU</a>
+              <ul class="footer-text-small-menu">
+                <li>
+                  <a href="#menu-new">NEW</a>
+                </li>
+                <li>
+                  <a href="menu.html">SEASONAL</a>
+                </li>
+                <li>
+                  <a href="menu.html">CLASSIC</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#CONCEPT">CONCEPT</a>
+            </li>
+            <li>
+              <a href="#Q&A">Q&A</a>
+            </li>
+            <li>
+              <a href="#CONTACT">CONTACT</a>
+              <ul class="footer-text-small-contact">
+                <li>
+                  <a href="https://goo.gl/maps/CNtY4gwb2cAPFcXB6">MAP</a>
+                </li>
+                <li>
+                  <a href="https://www.twitter.com/pop_ingcolor">TWITTER</a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/popp.ingcolor">INSTAGRAM</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+      </div>
+      <div class="footer-sns">
+        <div class="footer-sns-img">
+            <a href="https://www.twitter.com/pop_ingcolor">
+              <img src="images/twitter.png" alt="フッターツイッター">
+            </a>
+        </div>
+        <div class="footer-sns-img">
+            <a href="https://www.instagram.com/popp.ingcolor">
+              <img src="images/instagram.png" alt="フッターインスタ">
+            </a>
+        </div>
+    </div>
+    </footer>
+    <script src="./js/script.js"></script>
+    <script src="./js/wave.js"></script>
+  </body>
+</html>
