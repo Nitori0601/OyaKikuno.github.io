@@ -143,7 +143,7 @@ header {
   width: 100%;
   height: 110vh;
   background-color: #00a4cf;
-  padding-top: 80px;
+  padding-top: 5px;
 }
 
 .main-visual {
@@ -183,7 +183,7 @@ header {
 /*NEWS*/
 .news {
   width: 100%;
-  padding-top: 80px;
+  padding-top: 8px;
   background-color: #e797a0;
   padding-bottom: 100px;
   position: relative;
@@ -198,7 +198,7 @@ header {
   text-shadow: 2px 2px 1px #e6326e, -2px 2px 1px #e6326e, 2px -2px 1px #e6326e,
     -2px -2px 1px #e6326e, 2px 0px 1px #e6326e, 0px 2px 1px #e6326e,
     -2px 0px 1px #e6326e, 0px -2px 1px #e6326e;
-  margin-bottom: 50px;
+  margin: 10% 0 50px;
 }
 
 .news-detail {
@@ -486,6 +486,7 @@ header {
     -2px 0px 1px #e6326e, 0px -2px 1px #e6326e;
   margin-top: 60%;
   margin-bottom: 8%;
+  padding-top: 5%;
 }
 
 .concept-contents {
@@ -541,6 +542,7 @@ header {
 .qa {
   width: 100%;
   margin-bottom: 10%;
+  padding-top: 1%;
 }
 
 .qa-title {
@@ -552,7 +554,7 @@ header {
   text-shadow: 2px 2px 1px #e6326e, -2px 2px 1px #e6326e, 2px -2px 1px #e6326e,
     -2px -2px 1px #e6326e, 2px 0px 1px #e6326e, 0px 2px 1px #e6326e,
     -2px 0px 1px #e6326e, 0px -2px 1px #e6326e;
-  margin-top: 10%;
+  margin-top: 7%;
   margin-bottom: 8%;
 }
 
@@ -796,12 +798,13 @@ footer {
   }
 
   .top {
-    padding-top: 30px;
+    padding-top: 10px;
     height: 60vh;
   }
 
   .news {
-    padding: 80px 0 50px;
+    padding-bottom: 20%;
+    padding-top: 12%;
   }
 
   .news-detail-2 {
@@ -813,7 +816,7 @@ footer {
   }
 
   .menu {
-    padding-top: 60px;
+    padding-top: 22%;
   }
 
   .menu-new p {
@@ -833,6 +836,7 @@ footer {
   .menu-new1-fruit {
     font-size: 3vw;
     top: 12px;
+    left: 6vw;
   }
 
   .menu-new1-img-d-wrap {
@@ -847,9 +851,10 @@ footer {
   }
 
   .menu-new1-caption p {
-    font-size: 5px;
+    width: 90%;
+    font-size: 2vw;
     position: absolute;
-    top: 67%;
+    top: 70%;
     left: 6%;
     right: 6%;
   }
@@ -880,14 +885,14 @@ footer {
   .menu-new2-caption h3 {
     font-size: 4vw;
     margin-left: 0;
-    margin-top: 10%;
+    margin-top: 15%;
   }
 
   .menu-new2-caption p {
-    width: 145%;
+    width: 180%;
     font-size: 2vw;
     margin-left: -12px;
-    margin-top: 30%;
+    margin-top: 45%;
   }
 
   .menu-viewmore {
@@ -895,24 +900,31 @@ footer {
   }
 
   .concept {
-    padding-bottom: 30vw;
+    padding-bottom: 40vw;
   }
 
   .concept-contents-detail {
     width: 80%;
   }
 
+  .qa {
+    padding-top: 15%;
+    margin-bottom: 90px;
+  }
+
   .qa-contens-q {
     width: 80%;
+    font-size: 2vw;
   }
 
   .qa-contents p {
     width: 90%;
-    font-size: 0.5vw;
+    font-size: 1.5vw;
   }
 
   .contact {
-    height: 145vw;
+    height: 147vw;
+    padding-top: 15%;
   }
 
   .contact-contents-notmap {

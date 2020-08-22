@@ -282,10 +282,11 @@ footer {
 
   .news2-title {
     margin-top: 140px;
+    margin-bottom: 30px;
   }
 
   .news2-contents li {
-    margin-bottom: 7.2vw;
+    margin-bottom: 7.8vw;
   }
 
   footer {

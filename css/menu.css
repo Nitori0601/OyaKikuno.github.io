@@ -184,15 +184,52 @@ header {
   left: 42%;
 }
 
+/*ニュー*/
 .menu2-contents {
   width: 70%;
   margin: 10% auto 15%;
 }
 
 .menu2-contents h2 {
+  padding-top: 10%;
   font-size: 3vw;
   font-family: "Genshin-Heavy";
   color: #003856;
+}
+
+.menu2-contents-new {
+  display: flex;
+}
+
+.menu2-contents-new-wrap {
+  width: 30%;
+}
+
+.menu2-contents-star {
+  width: 30%;
+  margin-right: 10px;
+  display: flex;
+  height: auto;
+  margin-top: 5px;
+}
+
+.menu2-contents-star img {
+  width: 100%;
+  align-self: flex-start;
+}
+
+.kiwi {
+  color: #89bc56;
+}
+
+p {
+  font-size: 20px;
+  margin-left: 5px;
+  font-family: "Genshin-Bold";
+}
+
+.peach {
+  color: #e797a0;
 }
 
 .menu2-contents-seasonal {
@@ -224,58 +261,15 @@ header {
   color: #003856;
 }
 
-.menu2-contents-lemon-star {
-  width: 43%;
-  margin-right: 10px;
-  display: flex;
-  margin-top: 5px;
-}
-
-.menu2-contents-lemon-star img {
-  width: 40%;
-}
-
-.menu2-contents-lemon-star p {
-  font-size: 15px;
+.lemon {
   color: #ffda00;
-  margin-left: 5px;
-  font-family: "Genshin-Bold";
 }
 
-/*オレンジ*/
-.menu2-contents-orange-star img {
-  width: 40%;
-}
-
-.menu2-contents-orange-star {
-  width: 43%;
-  margin-right: 10px;
-  display: flex;
-  margin-top: 5px;
-}
-
-.menu2-contents-orange-star img {
-  width: 40%;
-}
-.menu2-contents-orange-star p {
-  font-size: 15px;
+.orange {
   color: #f18b3d;
-  margin-left: 5px;
-  font-family: "Genshin-Bold";
 }
 
 /*クラシック*/
-.menu2-contents-2 {
-  width: 70%;
-  margin: 10% auto 15%;
-}
-
-.menu2-contents-2 h2 {
-  font-size: 3vw;
-  font-family: "Genshin-Heavy";
-  color: #003856;
-}
-
 .menu2-contents-classic {
   width: 100%;
   display: flex;
@@ -286,155 +280,36 @@ header {
   width: 27%;
 }
 
-/*いちご*/
-.menu2-contents-strawberry-star {
-  width: 43%;
-  margin-right: 10px;
-  display: flex;
-  margin-top: 5px;
-}
-
-.menu2-contents-strawberry-star img {
-  width: 40%;
-}
-
-.menu2-contents-strawberry-star p {
-  font-size: 15px;
+.strawberry {
   color: #e0332b;
-  margin-left: 5px;
-  font-family: "Genshin-Bold";
 }
 
-/*コーヒー*/
-.menu2-contents-coffee-star {
-  width: 43%;
-  margin-right: 10px;
-  display: flex;
-  margin-top: 5px;
-}
-
-.menu2-contents-coffee-star img {
-  width: 40%;
-}
-.menu2-contents-coffee-star p {
-  font-size: 15px;
+.coffee {
   color: #694138;
-  margin-left: 5px;
-  font-family: "Genshin-Bold";
 }
 
-/*ベリー*/
-.menu2-contents-berry-star {
-  width: 43%;
-  margin-right: 10px;
-  display: flex;
-  margin-top: 5px;
-}
-
-.menu2-contents-berry-star img {
-  width: 40%;
-}
-
-.menu2-contents-berry-star p {
-  font-size: 15px;
+.berry {
   color: #346d9a;
-  margin-left: 5px;
-  font-family: "Genshin-Bold";
 }
 
-/*フルーツ*/
-.menu2-contents-fruit-star {
-  width: 43%;
-  margin-right: 10px;
-  display: flex;
-  margin-top: 5px;
-}
-
-.menu2-contents-fruit-star img {
-  width: 40%;
-}
-
-.menu2-contents-fruit-star p {
-  font-size: 15px;
+.fruit {
   color: #ed5d54;
-  margin-left: 5px;
-  font-family: "Genshin-Bold";
 }
 
-/*スイカ*/
-.menu2-contents-watermelon-star {
-  width: 43%;
-  margin-right: 10px;
-  display: flex;
-  margin-top: 5px;
-}
-
-.menu2-contents-watermelon-star img {
-  width: 40%;
-}
-
-.menu2-contents-watermelon-star p {
-  font-size: 15px;
+.watermelon {
   color: #e6462c;
-  margin-left: 5px;
-  font-family: "Genshin-Bold";
 }
 
-/*ブルーベリー*/
-.menu2-contents-blueberry-star {
-  width: 43%;
-  margin-right: 10px;
-  display: flex;
-  margin-top: 5px;
-}
-
-.menu2-contents-blueberry-star img {
-  width: 40%;
-}
-
-.menu2-contents-blueberry-star p {
-  font-size: 15px;
+.blueberry {
   color: #15308d;
-  margin-left: 5px;
-  font-family: "Genshin-Bold";
 }
 
-/*ぶどう*/
-.menu2-contents-grape-star {
-  width: 43%;
-  margin-right: 10px;
-  display: flex;
-  margin-top: 5px;
-}
-
-.menu2-contents-grape-star img {
-  width: 40%;
-}
-
-.menu2-contents-grape-star p {
-  font-size: 15px;
+.grape {
   color: #8e3e8c;
-  margin-left: 5px;
-  font-family: "Genshin-Bold";
 }
 
-/*メロン*/
-.menu2-contents-melon-star {
-  width: 43%;
-  margin-right: 10px;
-  display: flex;
-  margin-top: 5px;
-}
-
-.menu2-contents-melon-star img {
-  width: 40%;
-}
-
-.menu2-contents-melon-star p {
-  font-size: 15px;
+.melon {
   color: #b6be39;
-  margin-left: 5px;
-  font-family: "Genshin-Bold";
 }
 
 .menu2-wave-wrap-2 {
@@ -546,6 +421,16 @@ footer {
     display: none;
   }
 
+  .menu2-contents-new {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .menu2-contents-new-wrap {
+    width: 40%;
+  }
+
   .menu2-contents-seasonal {
     display: flex;
     flex-wrap: wrap;
@@ -560,97 +445,32 @@ footer {
     justify-content: center;
   }
 
-  .menu2-contents-detail {
-    margin-top: 10px;
-    margin-left: 8px;
-  }
-
-  .menu2-contents-lemon-star {
-    width: 65%;
-  }
-
-  .menu2-contents-lemon-star p {
-    font-size: 12px;
-  }
-
-  .menu2-contents-orange-star {
-    width: 50%;
-  }
-
-  .menu2-contents-orange-star {
-    width: 65%;
-  }
-
-  .menu2-contents-orange-star p {
-    font-size: 12px;
-  }
-
   .menu2-contents-classic-wrap {
     width: 40%;
   }
 
-  .menu2-contents-strawberry-star {
-    width: 65%;
+  .menu2-contents-detail {
+    margin-top: 10px;
+    margin-left: 10px;
   }
 
-  .menu2-contents-strawberry-star p {
-    font-size: 12px;
+  .menu2-contents-detail h3 {
+    font-size: 2.7vw;
   }
 
-  .menu2-contents-coffee-star {
-    width: 65%;
+  .menu2-contents-star {
+    width: 25%;
+    display: flex;
+    height: auto;
   }
 
-  .menu2-contents-coffee-star p {
-    font-size: 12px;
+  .menu2-contents-star img {
+    width: 100%;
+    align-self: flex-start;
   }
 
-  .menu2-contents-berry-star {
-    width: 65%;
-  }
-
-  .menu2-contents-berry-star p {
-    font-size: 12px;
-  }
-
-  .menu2-contents-fruit-star {
-    width: 65%;
-  }
-
-  .menu2-contents-fruit-star p {
-    font-size: 12px;
-  }
-
-  .menu2-contents-watermelon-star {
-    width: 65%;
-  }
-
-  .menu2-contents-watermelon-star p {
-    font-size: 12px;
-  }
-
-  .menu2-contents-blueberry-star {
-    width: 65%;
-  }
-
-  .menu2-contents-blueberry-star p {
-    font-size: 12px;
-  }
-
-  .menu2-contents-grape-star {
-    width: 65%;
-  }
-
-  .menu2-contents-grape-star p {
-    font-size: 12px;
-  }
-
-  .menu2-contents-melon-star {
-    width: 65%;
-  }
-
-  .menu2-contents-melon-star p {
-    font-size: 12px;
+  p {
+    font-size: 10px;
   }
 
   footer {
