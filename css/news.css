@@ -23,13 +23,23 @@
     transform: 0;
   }
   100% {
-    transform: translateY(21vh);
+    transform: translateY(150%);
   }
+}
+_::-webkit-full-page-media,
+_:future,
+:root .obi img {
+  margin-bottom: 4.5vh;
 }
 
 @media screen and (max-width: 480px) {
   .obi {
     width: 30px;
+  }
+  _::-webkit-full-page-media,
+  _:future,
+  :root .obi img {
+    margin-bottom: 5.5vh;
   }
 }
 
