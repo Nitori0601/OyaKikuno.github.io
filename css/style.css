@@ -7,12 +7,14 @@
   left: 0;
   text-align: center;
   z-index: 99;
+  display: flex;
+  flex-direction: column;
   /* transform: rotate(90deg); */
 }
 
 .obi img {
-  width: 90%;
-  margin-bottom: 10vh;
+  height: 114px;
+  margin-bottom: 57px;
   animation: obi-animation 1.3s linear infinite;
 }
 
@@ -21,7 +23,18 @@
     transform: 0;
   }
   100% {
-    transform: translateY(15vh);
+    transform: translateY(150%);
+  }
+}
+_::-webkit-full-page-media,
+_:future,
+:root .obi img {
+  margin-bottom: 39px;
+}
+
+@media screen and (max-width: 480px) {
+  .obi {
+    width: 30px;
   }
 }
 
