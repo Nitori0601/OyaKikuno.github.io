@@ -13,14 +13,9 @@
 }
 
 .obi img {
-<<<<<<< HEAD
   width: 80%;
-  height: 200px;
   margin: 0 auto 57px;
-=======
   height: 114px;
-  margin-bottom: 57px;
->>>>>>> 1001e933787244a7672e0a4472a6bdcab2c42998
   animation: obi-animation 1.3s linear infinite;
 }
 
