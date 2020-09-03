@@ -14,8 +14,8 @@
 
 .obi img {
   width: 80%;
-  height: 200px;
   margin: 0 auto 57px;
+  height: 114px;
   animation: obi-animation 1.3s linear infinite;
 }
 
