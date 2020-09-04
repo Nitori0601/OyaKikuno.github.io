@@ -27,11 +27,11 @@
     transform: translateY(150%);
   }
 }
-_::-webkit-full-page-media,
+/* _::-webkit-full-page-media,
 _:future,
 :root .obi img {
   margin-bottom: 39px;
-}
+} */
 
 @media screen and (max-width: 480px) {
   .obi {
