@@ -13,8 +13,9 @@
 }
 
 .obi img {
-  height: 14vh;
-  margin-bottom: 7vh;
+  height: 114px;
+  object-fit: contain;
+  margin-bottom: 57px;
   animation: obi-animation 1.3s linear infinite;
 }
 
@@ -29,17 +30,12 @@
 _::-webkit-full-page-media,
 _:future,
 :root .obi img {
-  margin-bottom: 4.5vh;
+  margin-bottom: 39px;
 }
 
 @media screen and (max-width: 480px) {
   .obi {
     width: 30px;
-  }
-  _::-webkit-full-page-media,
-  _:future,
-  :root .obi img {
-    margin-bottom: 5.5vh;
   }
 }
 
